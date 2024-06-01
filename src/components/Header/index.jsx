@@ -19,7 +19,7 @@ export default function Header({ size }) {
   return (
     <header id='header' className="header">
       <Title />
-      <Menu burgerActive={burgerActive} />
+      <Menu burgerActive={burgerActive} setBurgerActive={setBurgerActive} size={size} />
       <Burger burgerActive={burgerActive} setBurgerActive={setBurgerActive} />
     </header>
   )

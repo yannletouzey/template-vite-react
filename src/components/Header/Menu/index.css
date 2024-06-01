@@ -18,7 +18,7 @@ nav {
     height: 3rem;
     border-top: 1px solid #000;
     border-left: 1px solid #000;
-    border-right: 1px sollid #000;
+    border-right: 1px solid #000;
     cursor: pointer;
   }
   li:last-child {

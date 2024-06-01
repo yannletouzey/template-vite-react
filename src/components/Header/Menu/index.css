@@ -1,0 +1,27 @@
+nav {
+  position: absolute;
+  width: 18rem;
+  left: 100%;
+  background-color: var(--header-bg-color);
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.menu-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 6rem;
+}
+@media screen and (min-width: 768px) {
+  nav {
+    translate: -18rem 0;
+    height: 100%;
+  }
+  .menu-list {
+    flex-direction: row;
+  }
+}

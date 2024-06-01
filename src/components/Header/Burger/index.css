@@ -1,0 +1,14 @@
+.burger {
+  position: absolute;
+  right: calc(var(--burger-size) / 2);
+  top: calc((var(--header-height) / 2) - (var(--burger-size) / 2));
+  width: var(--burger-size);
+  height: var(--burger-size);
+  background-color: rebeccapurple;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+}

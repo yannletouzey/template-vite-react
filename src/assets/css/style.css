@@ -1,0 +1,14 @@
+:root {
+  --header-height: 3.5rem;
+  --header-bg-color: #f00;
+  --footer-height: 3.5rem;
+  --footer-bg-color: #f00;
+  --burger-size: 2rem;
+}
+
+body, .root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}

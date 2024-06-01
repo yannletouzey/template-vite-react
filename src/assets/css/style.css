@@ -4,6 +4,7 @@
   --footer-height: 3.5rem;
   --footer-bg-color: #f00;
   --burger-size: 2rem;
+  --nav-width: 18rem;
 }
 
 body, .root {

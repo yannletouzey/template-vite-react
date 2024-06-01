@@ -8,7 +8,7 @@ export default function Burger({ burgerActive, setBurgerActive }) {
   const toggleBurger = () => {
     setBurgerActive(!burgerActive)
   }
-  
+
   useEffect(() => {
     if (burgerActive) {
       burgerRef.current.style.translate = '-18rem 0'
@@ -18,8 +18,6 @@ export default function Burger({ burgerActive, setBurgerActive }) {
   }, [burgerActive])
 
   return (
-    <div id="burger" className="burger" ref={burgerRef} onClick={toggleBurger}>
-      
-    </div>
+    <div id="burger" className="burger" ref={burgerRef} onClick={toggleBurger}></div>
   )
 }

@@ -3,7 +3,6 @@ nav {
   width: var(--nav-width);
   left: 100%;
   height: 100vh;
-  background-color: var(--header-bg-color);
   transition: translate 0.5s;
 }
 .menu-list {
@@ -13,6 +12,7 @@ nav {
 }
 .menu-list li {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
@@ -20,6 +20,18 @@ nav {
   border-top: 1px solid #000;
   border-left: 1px solid #000;
   border-right: 1px sollid #000;
+  cursor: pointer;
+}
+.menu-list li::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  margin-top: 2px;
+  background-color: #000;
+}
+.menu-list li:hover::after {
+  transition: width 0.5s;
+  width: 50%;
 }
 .menu-list li:last-child {
   border-bottom: 1px solid #000;

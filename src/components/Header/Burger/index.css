@@ -4,6 +4,7 @@
   top: calc((var(--header-height) / 2) - (var(--burger-size) / 2));
   width: var(--burger-size);
   height: var(--burger-size);
+  border-radius: 50%;
   background-color: rebeccapurple;
   cursor: pointer;
   transition: translate 0.5s;

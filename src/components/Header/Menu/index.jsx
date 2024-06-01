@@ -22,9 +22,15 @@ export default function Menu({ burgerActive, setBurgerActive, size }) {
   return (
     <nav id='menu' className="menu" ref={menuRef}>
       <ul className="menu-list">
-        <li><Link to='/' onClick={handleMenu}>Home</Link></li>
-        <li><Link to='/about' onClick={handleMenu}>About</Link></li>
-        <li><Link to='/contact' onClick={handleMenu}>Contact</Link></li>
+        <li>
+          <Link to='/' onClick={handleMenu}>Home</Link>
+        </li>
+        <li>
+          <Link to='/about' onClick={handleMenu}>About</Link>
+        </li>
+        <li>
+          <Link to='/contact' onClick={handleMenu}>Contact</Link>
+        </li>
       </ul>
     </nav>
   )

@@ -21,9 +21,9 @@ nav {
     border-right: 1px sollid #000;
     cursor: pointer;
   }
-}
-.menu-list li:last-child {
-  border-bottom: 1px solid #000;
+  li:last-child {
+    border-bottom: 1px solid #000;
+  }
 }
 @media screen and (min-width: 768px) {
   nav {
